@@ -1,14 +1,74 @@
-ol {
-  margin-left: -40px;
-  margin-top: -20px;
-  list-style-position: inside;
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Write your CSS below, don't change the rules above. */
-p {
-  color: black;
+/* Header Styles */
+header {
+  background-color: #2ecc71;
+  padding: 20px;
+  color: #fff;
 }
 
-* {
+h1 {
+  margin: 0;
+  font-size: 24px;
   text-align: center;
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #2ecc71;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+p {
+  color: #555;
+  line-height: 1.5;
+}
+
+a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
