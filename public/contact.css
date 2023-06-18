@@ -1,14 +1,43 @@
-ol {
-  margin-left: -40px;
-  margin-top: -20px;
-  list-style-position: inside;
+/* contact.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Write your CSS below, don't change the rules above. */
-p {
-  color: black;
-}
-
-* {
+h1 {
+  color: #333;
   text-align: center;
 }
+
+hr {
+  border: none;
+  border-top: 2px solid #333;
+  margin: 20px 0;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.address {
+  font-style: italic;
+}
+
+.best-regards {
+  font-weight: bold;
+}
+
+/* Add additional styles as needed */
