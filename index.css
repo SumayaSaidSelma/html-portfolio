@@ -1,47 +1,56 @@
 /* Styles for the portfolio page */
 
-/* portfolio.css */
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Merriweather', sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #107772;
-}
-
-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #074b48;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
     color: #fbfafa;
-    text-align: center;
-}
+  }
 
-h3 {
-    color: #000000;
-    text-align: center;
-}
-
-hr {
+  h5 {
+    color: #b4b1a1;
+  }
+  
+  h5 {
+    margin-top: 10px;
+  }
+  
+  hr {
     border: none;
     border-top: 1px solid #f8f6f6;
     margin: 20px 0;
-}
-
-button {
+  }
+  
+  button {
     display: block;
-    margin-bottom: 10px;
+    margin: 10px auto;
     padding: 10px 20px;
-    background-color: #074b48;
-    color: #fff;
+    background-color: #b4b1a1;
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    text-align: center;
-}
-
-button:hover {
-    background-color: #04d3ccce;
-}
-
-img {
+    font-family: 'Merriweather', serif;
+  }
+  
+  button:hover {
+    background-color: #d7d5cc;
+  }
+  
+  img {
     display: block;
-    margin-bottom: 20px;
-}
+    margin: 20px auto;
+  }
+
