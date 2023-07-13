@@ -10,14 +10,10 @@ body {
     background-color: #ffffff;
     flex-direction: column;
     min-height: 95vh;
+    border-radius: 5px;
+    flex: 1;
   }
 
-  
-  @media (max-width: 680px) {
-    .container {
-      width: 100px;
-    }
-    }
 
 .logo {
   position: absolute;
@@ -60,7 +56,8 @@ body {
 
 .card {
   width: 100%;
-  display: block;
+  display: flex;
+  gap: 10px;
   margin-bottom: 30px;
   text-align: justify;
 }
@@ -115,7 +112,7 @@ body {
     display: block;
     margin: 10px auto;
     padding: 10px 20px;
-    background-color: #504f4c;
+    background-color: fd6f01;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -131,37 +128,37 @@ body {
   border-radius: 5px;
 }
 
-.container {
-  border-radius: 5px;
-  display: block;
-  text-align: center;
-  flex: 1;
-  width: 100%;
-}
-
-
-#out-parag, #out-imag {
-background-color: #fbfafa;
-display: block;
-width: 250px;
-height: 250px;
-border-radius: 5px;
-margin: 20px auto;
-padding: 5px;
-align-items: center;
-}
-
-
-
-.parag p {
-  color: #010101;
-  text-align: center;
-  font-size: 14px;
-}
 
 .card {
   width: 100%;
   display: block;
   margin-bottom: 30px;
   text-align: justify;
+}
+
+
+
+p {
+  font-weight: 700;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000; 
+}
+
+.container {
+  padding: 10px;
+  background-color: fd6f01;
+  display: flex;
+  gap: 10px;
 }
