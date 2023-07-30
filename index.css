@@ -12,22 +12,25 @@ body {
     min-height: 95vh;
     border-radius: 5px;
     flex: 1;
+    justify-content: space-between;
   }
 
 
 .logo {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 5px;
   width: 60px;
   height: 40px;
   float: left;
+  border: 1px solid #333;
 }
+
 
 #menu-button {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 5px;
   width: 60px;
   height: 40px;
   float: right;
@@ -77,6 +80,7 @@ body {
     text-align: justify;
   }
 
+
   .card img {
     margin-bottom: 5px;
     border-radius: 5px;
@@ -86,6 +90,9 @@ body {
     height: 50%;
     float: left;
     margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    grid-row: span 2;
   }
 }
 
@@ -118,24 +125,20 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Merriweather', serif;
+    border: 1px solid #333;
   }
 
+
   img {
-  margin-bottom: 10px;
-  width: 100%;
-  display: inline;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-
-.card {
-  width: 100%;
-  display: block;
-  margin-bottom: 30px;
-  text-align: justify;
-}
-
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    grid-row: span 2;
+  }
 
 
 p {
@@ -160,5 +163,10 @@ a:hover {
   padding: 10px;
   background-color: fd6f01;
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
+  border:2px solid #333;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 0;
 }
