@@ -1,15 +1,20 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM content loaded'); 
+    console.log('DOM content loaded');
+    const fetchButton = document.getElementById('fetchButton');
+    fetchButton.addEventListener('click', fetchServerInfo);
+});
+
+function fetchServerInfo() {
     fetch('server_info.php')
         .then(response => response.json())
         .then(data => displayServerInfo(data))
         .catch(error => console.error('Error fetching server info:', error));
-});
+}
 
 function displayServerInfo(serverInfo) {
-    const main = document.querySelector('main');
-    main.innerHTML = `
+    const serverInfoContainer = document.getElementById('serverInfo');
+    serverInfoContainer.innerHTML = `
         <h2>Server Information</h2>
         <ul>
             <li><strong>Hostname:</strong> ${serverInfo.hostname}</li>
