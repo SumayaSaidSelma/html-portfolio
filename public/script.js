@@ -1,5 +1,6 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
+    // Fetch server info from server_info.php
     fetch('server_info.php')
         .then(response => response.json())
         .then(data => displayServerInfo(data))
